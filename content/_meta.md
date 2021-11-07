@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/portfolio-logo.jpg
 Tagline: My portfolio.
 Social:
-  - title: Link till sidans github repo.
-    url: https://github.com/dbwebb-se/design-v3
+  - title: Github
+    url: https://github.com/Worns/portfolio
     icon: github
+  - title: Twitter
+    url: https://www.twitter.com/christianwarn
+    icon: twitter
 ---

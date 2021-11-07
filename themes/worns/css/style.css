@@ -5,24 +5,17 @@
   padding: 0;
 }
 
-body {
-  background-color: rgb(180, 163, 166);
+div.nav ul li {
+  background-color: rgb(4, 112, 184);
 }
 
-div.nav ul li:first-child {
-  background-color: rgb(230, 179, 117);
-}
-
-div.nav ul li:first-child a {
+div.nav ul li a {
   color: #f5f5f5;
 }
 
-div.nav ul li:last-child {
-  background-color: rgb(122, 98, 68);
-}
-
-div.nav ul li:first-child:hover {
-  background-color: aquamarine;
+div.nav a:hover {
+  background-color: rgb(12, 11, 11);
+  text-decoration: underline;
 }
 
 ol,
@@ -44,6 +37,9 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: rgb(53, 114, 163);
+  overflow: auto;
+  max-width: 100%;
 }
 
 .main {
@@ -96,15 +92,20 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
+  border-top: 2px solid rgb(255, 255, 255);
+  background-color: rgb(179, 216, 245);
 }
 
 .footer a {
-  color: #222;
+  color: rgb(13, 94, 243);
+}
+
+.footer-text p {
+  color: #111;
 }
 
 .footer .social {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 /* Typografy */
@@ -112,7 +113,7 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 p,
@@ -146,9 +147,9 @@ img {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #0158a0;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -156,9 +157,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #0158a0;
 }
 
 pre code {
