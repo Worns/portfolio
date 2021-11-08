@@ -1,7 +1,7 @@
 ##
 # Basic
 #
-site_title: Design v3 # The title of your website
+site_title: Worns # The title of your website
 base_url:
   ~ # Pico will try to guess its base URL, if this fails, override it here;
   #     Example: https://example.com/pico/
