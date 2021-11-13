@@ -1,0 +1,22 @@
+.old-fashioned {
+  @import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+  font-family: "Rochester", cursive;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.modern {
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+  font-family: "Oswald", sans-serif;
+  line-height: 1.2;
+  font-size: 1.4rem;
+}
+
+.worst-ever {
+  @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+  font-family: "Luckiest Guy", cursive;
+  color: greenyellow;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  font-size: 1rem;
+}

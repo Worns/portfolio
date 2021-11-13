@@ -1,0 +1,24 @@
+// Normalize
+@import "../../node_modules/normalize.css/normalize";
+
+// Variables
+@import "variables";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+// External modules
+@import "../../shared/fontawesome/scss/fontawesome";
+$fa-font-path: "../../shared/fontawesome/webfonts";
+@import "../../shared/fontawesome/scss/brands";
+@import "../../shared/fontawesome/scss/solid";
+@import "../../shared/fontawesome/scss/regular";
+
+// Internal modules
+@import "typography";
+@import "main";
+@import "header";
+@import "footer";
+@import "blockquotes";
+@import "code";
+// @import "test";
