@@ -1,24 +1,27 @@
 // Normalize
-@import "../../node_modules/normalize.css/normalize";
+@import '../../node_modules/normalize.css/normalize';
 
 // Variables
-@import "variables";
+@import 'variables';
 
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Playfair+Display:wght@700&display=swap');
 
 // External modules
-@import "../../shared/fontawesome/scss/fontawesome";
-$fa-font-path: "../../shared/fontawesome/webfonts";
-@import "../../shared/fontawesome/scss/brands";
-@import "../../shared/fontawesome/scss/solid";
-@import "../../shared/fontawesome/scss/regular";
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
 // Internal modules
-@import "typography";
-@import "main";
-@import "header";
-@import "footer";
-@import "blockquotes";
-@import "code";
+@import 'typography';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+@import 'images';
+@import 'mobile-menu';
 // @import "test";
