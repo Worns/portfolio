@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: $background-color;
+  color: $font-color;
+  margin: auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 0 auto;
+  width: 60em;
+  margin: 2em auto;
+}
+
+.header,
+.main {
+  a:link,
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(10, 33, 56);
+    text-decoration: none;
+  }
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+  .main {
+    width: 97%;
+  }
+}
