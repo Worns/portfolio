@@ -6494,8 +6494,8 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-color: #0f6197;
-  color: white;
+  background-color: #313538;
+  color: #cfdae3;
   margin: auto;
   position: relative;
   min-height: 100vh;
@@ -6511,7 +6511,7 @@ body {
 .header a:visited,
 .main a:link,
 .main a:visited {
-  color: white;
+  color: #cfdae3;
   text-decoration: none;
 }
 .header a:hover,
@@ -6568,15 +6568,15 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  border-top: 2px solid white;
-  background-color: #b3d8f5;
+  border-top: 2px solid #cfdae3;
+  background-color: #6d8699;
   padding: 2em;
-  color: #1f3c75;
+  color: #cfdae3;
   font-weight: 900;
 }
 
 .footer a {
-  color: #1f3c75;
+  color: #cfdae3;
   text-decoration: none;
 }
 
@@ -6599,9 +6599,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid black;
+  border: 1px solid #3d5363;
   border-radius: 0.3em;
-  background: #0158a0;
+  background: #3d5363;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6609,18 +6609,18 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid black;
+  border: 1px solid #3d5363;
   border-radius: 0.3em;
-  background: #0158a0;
+  background: #3d5363;
 }
 pre code {
   display: block;
   margin: 0;
   padding: 1.1111em 0;
-  border: 1px solid black;
+  border: 1px solid #3d5363;
   border-radius: 0.3em;
   border: 0 none;
-  background: #0158a0;
+  background: #3d5363;
   overflow-x: auto;
   line-height: 1.4;
 }
@@ -6629,7 +6629,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  filter: none;
+  filter: grayscale(60%);
 }
 
 img[alt=IMDB] {
@@ -6648,19 +6648,19 @@ img[alt=IMDB] {
 }
 
 .technology-container .technology {
-  box-shadow: rgba(0, 0, 0, 0.2);
+  box-shadow: 9px 9px 3px 1px #3d5363;
   height: 5em;
-  border: 1px solid black;
+  border: 1px solid #3d5363;
   padding: 1em;
-  background-image: linear-gradient(to top, #033958, white);
-  color: white;
+  background-image: linear-gradient(to top, #899196, #cfdae3);
+  color: #cfdae3;
   font-size: 2rem;
   text-decoration: none;
   text-align: center;
 }
 
 .technology:hover {
-  box-shadow: 2px 2px 6px 1px #0047ec;
+  box-shadow: 2px 2px 6px 1px #cfdae3;
   text-decoration: none;
 }
 
