@@ -21,7 +21,7 @@ Kommer även använda mig av [Adobe Color](https://color.adobe.com/) (färghjul)
 
 ### IMDB
 
-![IMDB](%assets_url%/img/imdb-startpage-photo.PNG "IMDB")
+<img src="%assets_url%/img/imdb-startpage-photo.webp" alt="IMDB" width="100%"/>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -38,7 +38,7 @@ De har ju ett sorts "dark theme" direkt på startsidan och det tycker jag är et
 
 ### Rotten Tomatoes
 
-![Rotten Tomatoes](%assets_url%/img/rotten-tomatoes-startpage-photo.PNG "Rotten Tomatoes")
+<img src="%assets_url%/img/rotten-tomatoes-startpage-photo.webp" alt="IMDB" width="100%"/>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -56,7 +56,7 @@ Neusa och Franklin Gothic tillhör båda sans-serif familjen. Jag tycker själva
 
 ### TMDB
 
-![TMDB](%assets_url%/img/tmdb-startpage-photo.PNG "TMDB")
+<img src="%assets_url%/img/tmdb-startpage-photo.PNG" alt="webp" width="100%"/>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
