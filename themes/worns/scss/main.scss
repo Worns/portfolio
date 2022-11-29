@@ -1,0 +1,30 @@
+* {
+    color: $font-color;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    color: $font-color;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 60em;
+    margin: 2em auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 95%;
+    }
+}

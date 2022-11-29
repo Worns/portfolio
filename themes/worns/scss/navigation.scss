@@ -1,0 +1,26 @@
+.header,
+.main {
+    a:link,
+    a:visited {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    a:hover {
+        // color: rgb(92, 100, 107);
+        text-decoration: underline;
+    }
+}
+
+// .nav ul li {
+//   background-color: rgb(4, 112, 184);
+// }
+
+// .nav ul li a {
+//   color: #f5f5f5;
+// }
+
+// .nav a:hover {
+//   background-color: rgb(12, 11, 11);
+//   text-decoration: underline;
+// }

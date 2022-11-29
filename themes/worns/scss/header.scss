@@ -1,0 +1,36 @@
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.logo > a > img {
+    width: 256px;
+    max-width: 256px;
+}
+
+.title p {
+    font-style: italic;
+}
+
+@media (max-width: 767px) {
+    .title {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        display: none !important;
+        // max-width: 30%;
+    }
+}

@@ -1,0 +1,15 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'navigation';
+@import 'mobile-navigation';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}

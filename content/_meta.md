@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
   - title: Github
     url: https://github.com/Worns/portfolio
-    icon: github
+    icon: fab fa-github
   - title: Twitter
     url: https://www.twitter.com/christianwarn
-    icon: twitter
+    icon: fab fa-twitter
 ---

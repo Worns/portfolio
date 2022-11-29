@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(255, 255, 255);
+    background-color: $footer-background-color;
+    height: auto;
+    padding: 2em;
+    color: $footer-text-color;
+    font-weight: 900;
+}
+
+.footer a {
+    color: $footer-text-color;
+    text-decoration: none;
+}
+
+.footer > div {
+    text-align: center;
+}
+
+.footer .social {
+    font-size: 2.5rem;
+    padding: 10px;
+}
