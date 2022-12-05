@@ -1,69 +1,70 @@
 .technology-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em 3em;
 }
 
 .technology-container h1,
 .technology-container p {
-    grid-column: span 3;
+  grid-column: span 3;
 }
 
 .technology-container .technology {
-    box-shadow: 9px 9px 3px 1px rgba(0, 0, 0, 0.2);
-    height: 5em;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 1em;
-    background-image: linear-gradient(to top, rgb(3, 57, 88), rgb(255, 255, 255));
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    text-decoration: none;
-    text-align: center;
+  box-shadow: $technology-box-shadow;
+  height: 5em;
+  border: $code-border;
+  padding: 1em;
+  background-image: $technologies-background-image;
+  color: $font-color;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
 }
 
 .technology:hover {
-    box-shadow: 2px 2px 6px 1px rgb(0, 71, 236);
-    text-decoration: none;
+  box-shadow: $technology-hover;
+  text-decoration: none;
 }
 
 .technology a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .technology-article {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .technology-article .sidebar {
-    width: 30%;
-    padding-top: 4.5rem;
-    line-height: 1.5rem;
+  width: 30%;
+  padding-top: 4.5rem;
+  line-height: 1.5rem;
+  margin-right: 1rem;
 }
 
 .technology-article .sidebar ul {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .technology-article .article {
-    width: auto;
+  width: auto;
 }
 
 @media (max-width: 767px) {
-    .technology-article .sidebar {
-        display: none;
-    }
+  .technology-article .sidebar {
+    display: none;
+  }
 
-    .technology-container {
-        display: grid;
-        grid-column: span 1;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2em 3em;
-    }
+  .technology-container {
+    display: grid;
+    grid-column: span 1;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em 3em;
+  }
 
-    .technology-container h1,
-    .technology-container p {
-        grid-column: span 1;
-    }
+  .technology-container h1,
+  .technology-container p {
+    grid-column: span 1;
+  }
 }

@@ -1,3 +1,12 @@
+// Normalize
+@import "../../node_modules/normalize.css/normalize";
+
+// Variables
+@import "variables-dark";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+
 // External modules
 @import "../../shared/fontawesome/scss/fontawesome";
 $fa-font-path: "../../shared/fontawesome/webfonts";
@@ -5,24 +14,15 @@ $fa-font-path: "../../shared/fontawesome/webfonts";
 @import "../../shared/fontawesome/scss/solid";
 @import "../../shared/fontawesome/scss/regular";
 
-// Normalize
-@import "../../node_modules/normalize.css/normalize";
-
-// Variables
-@import "variables";
-
 // Internal modules
+@import "typography";
+@import "main";
+@import "header";
+@import "footer";
 @import "blockquotes";
 @import "code";
-@import "navigation";
-@import "mobile-navigation";
-@import "footer";
-@import "header";
 @import "images";
-@import "main";
-@import "typography";
-@import "report";
 @import "technologies";
-
-// Fonts
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+@import "mobile-navigation";
+@import "navigation";
+// @import "report";
