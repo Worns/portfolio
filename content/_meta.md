@@ -8,10 +8,10 @@ Social:
   - title: Twitter
     url: https://www.twitter.com/christianwarn
     icon: fab fa-twitter
-  - title: Dark Mode
+  - title: Dark/Light Mode
     url: ?action=theme
     icon: fas fa-moon
-  - title: Destroy Session
-    url: ?action=session_destroy
-    icon: fas fa-trash-alt
+  # - title: Destroy Session
+  #   url: ?action=session_destroy
+  #   icon: fas fa-trash-alt
 ---

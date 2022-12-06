@@ -1,28 +1,28 @@
 // Normalize
-@import "../../node_modules/normalize.css/normalize";
+@import '../../node_modules/normalize.css/normalize';
 
 // Variables
-@import "variables-dark";
+@import 'variables-dark';
 
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
 
 // External modules
-@import "../../shared/fontawesome/scss/fontawesome";
-$fa-font-path: "../../shared/fontawesome/webfonts";
-@import "../../shared/fontawesome/scss/brands";
-@import "../../shared/fontawesome/scss/solid";
-@import "../../shared/fontawesome/scss/regular";
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
 // Internal modules
-@import "typography";
-@import "main";
-@import "header";
-@import "footer";
-@import "blockquotes";
-@import "code";
-@import "images";
-@import "technologies";
-@import "mobile-navigation";
-@import "navigation";
+@import 'typography';
+@import 'main';
+@import 'header';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+@import 'images';
+@import 'technologies';
+@import 'mobile-navigation';
+@import 'navigation';
 // @import "report";
